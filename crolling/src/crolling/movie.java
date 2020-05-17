@@ -18,7 +18,7 @@ public class movie {
 		//System.out.println(movies);
 		for (Element movie : movies){
 			// System.out.println(movie.select("a"));
-			System.out.println(movie.select("a").attr("href"));
+			System.out.println("https://movie.naver.com" + movie.select("a").attr("href"));
 			System.out.println(movie.text());
 			
 		}
